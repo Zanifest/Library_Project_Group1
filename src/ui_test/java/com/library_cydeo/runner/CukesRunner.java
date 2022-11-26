@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt",
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber"
         } ,
-        features = "src/test/resources/features" ,
+        features = "src/ui_test/resources/features",
         glue = "com/library_cydeo/step_definitions" ,
         dryRun = false ,
         tags = "@Test",
